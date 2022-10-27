@@ -1,0 +1,102 @@
+.container {
+  width: 800px;
+  background-color:bisque;
+  font-family: sans-serif;
+  margin: 5% auto 2%;
+  border-radius: 2%;
+  padding: 1%;
+  position: center;
+}
+.calendar {
+  width: 700px;
+  height: fit-content;
+  margin: auto;
+}
+#highlights {
+  text-align: center;
+  list-style-type: none;
+}
+#highlights li {
+  padding: 5px;
+  font-size: 20px;
+  font-family: cambria;
+  font-weight: bold;
+}
+.calendar-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 15px;
+  border-bottom: 19px;
+}
+
+.current-month {
+  font-size: 30px;
+  font-weight: bold;
+  font-family:cambria;
+  color:maroon;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.nav-btn {
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: cambria;
+  color: #000;
+  border-radius: 50px;
+  border: 2px solid transparent;
+}
+
+.nav-btn:hover {
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.weekdays-name,
+.calendar-days {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: 60px;
+}
+
+.weekdays-name {
+  padding-top: 12px;
+}
+
+.calendar-days {
+  padding-bottom: 12px;
+}
+
+.days-name,
+[class$="-day"] {
+  width: 40px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.days-name {
+  color:darkred;
+  font-weight: 200;
+  font-size: smaller;
+  font-family: cambria;
+  cursor: pointer;
+}
+
+.padding-day {
+  color: maroon;
+  user-select: none;
+}
+
+.month-day {
+  border-radius: 30%;
+  border: 2px;
+}
