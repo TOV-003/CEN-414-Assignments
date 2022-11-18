@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>C-Store</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">C-Store&nbsp;</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Homepage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cart&nbsp;</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="Contact.html">Contact</a> </li>
+          </ul>
+</div>
+      </div>
+    </nav>
+<div class="container">
+  <h1 class="text-center">Thank You for shopping at the Wonderful C-Store!</h1>
+  <h1 class="text-center">YOUR CART:&nbsp;</h1>
+<div class="row text-center">
+  <table width="1000" border="5" cellspacing="2" cellpadding="2">
+    <thead>
+	    <tr>
+        <th scope="col">&nbsp;TITLE</th>
+        <th scope="col">PRICE&nbsp;</th>
+        <th scope="col">QUANTITY&nbsp;</th>
+        <th scope="col">&nbsp;SUBTOTAL</th>
+        <th scope="col">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</th>
+      </tr>
+	  </thead>
+	 <tbody id="tbody">
+    
+    </tbody>
+  </table>
+  <div class="card col-md-4">
+    <div class="card-header"> <strong><em> TOTAL</em></strong></div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" id="total">&nbsp;</li>
+    </ul>
+  </div>
+	
+  <div class="btn-group dropup">
+	<button class="btn btn-primary" id="empty-cart" >EMPTY CART</button>
+	  &nbsp;
+    <button type="button" class="btn btn-info">GO:&nbsp;</button>
+    <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="sr-only">Toggle Dropdown</span> </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="Homepage.html">CONTINUE SHOPPING</a> 
+		<a class="dropdown-item" href="Contact.html">CONTACTS</a>
+  </div>
+</div>
+</div>
+<footer class="text-center">
+  <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h6>Copyright ©&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; C-Store.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; All rights reserved.</h6>
+          </div>
+        </div>
+  </div>
+  </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
